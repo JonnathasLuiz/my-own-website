@@ -1,0 +1,255 @@
+body{
+    color: white;
+    margin: 0px;
+    font-family: Inter;
+}
+
+.herol-bg{
+    background-image: url('../img/bg-herol.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-herol{
+    margin-top: -57;
+}
+
+section{
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: rgba(0,0,0,0);
+}
+.nav-menu ul{
+    padding-top: 40px;
+    float: right;
+}
+
+.nav-menu ul li{
+    display: inline;
+}
+
+.nav-menu ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Inter;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+/* botão de ação do menu */
+.nav-menu ul li:last-child a{
+    font-size: 21px;
+    text-transform: uppercase;
+    
+    padding: 6px 30px;
+    border-radius: 17px;
+}
+.herol-text{
+    padding-top: 25%;
+}
+
+.herol-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1.luiz{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0,0,0,0);
+}
+
+
+.headline{
+    font-weight: 400;
+    margin: 5px 0px 70px 0px !important; 
+    padding-top: 0px;
+    font-size: 34px;
+    margin: auto;
+}
+
+.btn{
+    color: white;
+    background-color: #FB32F7;
+    background: linear-gradient(90deg,rgba(251,50,247,1) 50%, rgba(116,44,220,0.3) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none;
+}
+
+.btn-center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 290px;
+}
+
+.btn-herol{
+    font-size: 21px;
+}
+
+.text-align-center{
+    text-align: center;
+    border-radius: 35px;
+    padding: 17px 0px;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-and-benefits{
+    padding: 130px 0px 130px;
+
+    background-image: url(../img/bg-dark-blue.png);
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    margin: 0px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.card{
+    max-width: 310px;
+    min-height: 325px;
+    border-radius: 15px;
+    margin: 80px auto ;
+}
+
+.card h3{
+    margin: 40px 30px 30px;
+}
+
+.card p{
+    margin: 30px;
+    line-height: 25px;
+}
+
+.service-card{
+    background-image: url(../img/bg-card-services.png);
+    background-position: center;
+}
+
+.benefit-card{
+    background-image: url(../img/bg-card-benefits.png);
+    background-position: center;
+}
+
+.vs-consultoria{
+    background-color: #af25ad;
+}
+
+.liig-ti{
+    background-color: rgb(2, 139, 139);
+    
+}
+
+.commit-liig-ti{
+    flex-direction: row-reverse;
+}
+
+.commit{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commit h3{
+    margin: 0px;
+}
+
+.commit-text{
+    padding-top: 10vh;
+    max-width: 390px;
+}
+.commit-text h3{
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+
+.commit-text p.real-commit{
+    margin-top: 25px;
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 28px;
+}
+
+.commit-ceo{
+    font-family: Poppins;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.commit-rule{
+    font-family: Roboto;
+    font-size: 14px;
+    margin: 0px 0px 60px;
+    text-align: right;
+}
+
+.commit-img{
+    width: 700;
+    height: 520;
+}
+
+.commit-vs-consultoria .commit-text .btn-contact{
+    max-width: 290px;
+    display:block;
+}
+
+.commit-liig-ti .commit-text .btn-contact{
+    max-width: 290px;
+    display:block;
+}
+
+footer{
+    background-color: #101237;
+    height: 53px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 37px;
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    h1{
+        font-size: ;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    
+}
